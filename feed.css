@@ -1,0 +1,57 @@
+.cardView {
+  width: 500px;
+  height: 800px;
+  margin: 0px auto;
+}
+
+.userNickName {
+  font-size: 20px;
+  padding: 15px;
+  background-color: white;
+}
+
+.cardInfo {
+  display: flex;
+  justify-content: space-between;
+  background-color: white;
+}
+
+.infoLeft, .infoRight {
+  background-color: white;
+}
+
+.cardInfo img {
+  background-color: white; 
+  width: 25px;
+  height: 25px;
+}
+
+.comment, .comment_form {
+  background-color: white;
+  font-size: 15px;
+  font-weight: normal;
+}
+
+.cardImage img {
+  width: 500px;
+  height: 500px;
+}
+
+.comment {
+  padding-bottom: 30px;
+}
+
+.comment_form {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+form {
+  background-color: white;
+}
+
+input {
+  background-color: white;
+  border:none;
+  padding: 10px;
+}
