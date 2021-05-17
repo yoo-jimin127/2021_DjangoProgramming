@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang = "en">
+    <head>
+        <meta charset="UTF-8">
+        <title>BLOG</title>
+    </head>
+
+    <body>
+        {% for blog in blogs %}
+            <h3>제목 : {{blog.title}}</h3>
+            날짜 : {{blog.pub_data}}
+            <br><br>
+            본문 : {{blog.summary}}
+            <br><br><br>
+        {% endfor %}
+    </body>
+</html>
